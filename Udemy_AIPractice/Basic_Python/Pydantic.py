@@ -307,5 +307,9 @@ class User(BaseModel):
     print("Hello World")
     
     #New message here
+<<<<<<< HEAD
     
     
+=======
+    #2nd new message here
+>>>>>>> 3c706c476e3bdb5ff176c42efcc0de5acca76216
