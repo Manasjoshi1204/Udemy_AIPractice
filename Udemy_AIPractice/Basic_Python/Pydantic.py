@@ -301,15 +301,6 @@ class User(BaseModel):
         json_encoders={datetime:lambda v: v.strftime('%d-%m-%Y %H:%M:%S')} #Dict key-value pair
     )   
     
-    #hi this is a test
-    #Hello we have changed
-    print("hello")
-    print("Hello World")
-    
-    #New message here
-<<<<<<< HEAD
+  
     
     
-=======
-    #2nd new message here
->>>>>>> 3c706c476e3bdb5ff176c42efcc0de5acca76216
