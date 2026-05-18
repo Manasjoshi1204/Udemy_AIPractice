@@ -302,5 +302,22 @@ class User(BaseModel):
     )   
     
   
-    
+user = User(
+    id = 1,
+    name="Manas",
+    email='abc@.ai',
+    is_active=True,
+    created_at=datetime(2024,3,15,14,30), #Y,M,D,H,MIN
+    address=Address(
+        street="something",
+        city="Haldwani",
+        postal_code="123"
+    ),
+    tags=['premier user','subscriber']
+)
+
+print(user.model_dump())
+json_str = user.model_dump_json() #convert into jsoon_encoded string which means they can be converted back into json format
+print("="*70)
+print(json_str)
     
