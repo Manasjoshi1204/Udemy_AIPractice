@@ -10,7 +10,7 @@
 #     is_active: bool = True
     
 # input_data = {'id':101,'name':'Manas','is_active': False}
-# user = User(**input_data)
+# user = User(**input_data) #Dictionary unpacking
 # user2 = User(id=12,name="Joshi")
 # print(user,'\n',user2) 
 
